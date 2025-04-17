@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom'; // 4 -компонент, который оборачивает всё приложение для работы маршрутизации через URL браузера
 import HomePage from './pages/HomePage/HomePage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
 import EditArticlePage from './pages/EditArticlePage/EditArticlePage';

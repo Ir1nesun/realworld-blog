@@ -6,7 +6,7 @@ const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
   const { user } = useAuth();
 
   if (!user) {
-    return <Navigate to="/sing-in" />;
+    return <Navigate to="/sign-in" />;
   }
 
   return children;
