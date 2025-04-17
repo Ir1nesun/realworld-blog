@@ -15,7 +15,7 @@
 ## Как запустить проект
 
 1. Клонировать репозиторий на свой компьютер:
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Ir1nesun/realworld-blog
 
 2. Перейти в папку проекта:
    cd your-repo-name
