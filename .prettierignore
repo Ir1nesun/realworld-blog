@@ -1,0 +1,17 @@
+# Сборка
+dist/
+build/
+
+# Зависимости
+node_modules/
+
+# Конфигурации и логи
+.env
+*.log
+
+# Vite cache
+.vite/
+
+# Git
+.git
+.gitignore
