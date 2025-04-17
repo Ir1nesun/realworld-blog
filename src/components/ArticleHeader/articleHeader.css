@@ -1,0 +1,155 @@
+.article-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.article-header__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.article-header__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.article-header__top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.article-header__title {
+  font-size: 18px;
+  color: #1890ff;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0;
+}
+
+.article-header__likes {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.article-header__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.article-header__tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  color: #444;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.article-header__tag:hover {
+  background-color: #f6f6f6;
+  color: #000;
+}
+.article-header__tag--active {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: #fff;
+}
+.article-header__tag.visited {
+  background-color: #e0e0e0;
+  color: #888;
+  font-style: italic;
+}
+
+.article-header__description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.article-header__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.article-header__meta-top {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.article-header__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 4px;
+}
+
+.article-header__username {
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+}
+
+.article-header__date {
+  color: #888;
+  font-size: 12px;
+}
+
+.article-header__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.article-header__controls {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-button {
+  border-color: #52c41a;
+  color: #52c41a;
+}
+
+.edit-button:hover {
+  background-color: #52c41a;
+  color: #fff;
+}
+
+.delete-button {
+  border-color: #ff4d4f;
+  color: #ff4d4f;
+}
+
+.delete-button:hover {
+  background-color: #ff4d4f;
+  color: #fff;
+}

@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: -18px;
+  font-family: 'Inter UI';
+}
+
+.pagination__arrow {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #1890ff;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.pagination__arrow:disabled {
+  color: #ccc;
+  cursor: default;
+}
+
+.pagination__number {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.pagination__number--active {
+  background-color: #1890ff;
+  color: white;
+  border-radius: 4px;
+}

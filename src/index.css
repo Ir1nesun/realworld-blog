@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/src/fonts/Roboto-Regular.ttf') format('ttf');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/src/fonts/Roboto-Bold.ttf') format('ttf');
+  font-display: swap;
+}
+html,
+body {
+  height: 100%;
+  background-color: #eaeaea;
+  font-family: 'Roboto';
+  overflow: hidden;
+}

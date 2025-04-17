@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  padding: 16px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Inter UI', sans-serif;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 40px;
+}
+
+.header__button {
+  border: 1px solid #52c41a;
+  color: #52c41a;
+  background-color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 19px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header__button:hover {
+  background-color: #52c41a;
+  color: white;
+}
+
+.header__logout {
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.header__logout:hover {
+  background-color: #000;
+  color: white;
+}
+
+.header__user {
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.header__avatar {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  object-fit: cover;
+}
